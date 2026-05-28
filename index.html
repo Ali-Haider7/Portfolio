@@ -21,6 +21,20 @@
             padding: 0;
             box-sizing: border-box;
         }
+        .hero-image {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--primary);
+    box-shadow: 0 0 40px rgba(0, 247, 255, 0.4);
+}
 
         :root {
             --primary: #00F7FF;
@@ -618,6 +632,9 @@
 
     <!-- ===== HERO SECTION ===== -->
     <section class="hero" id="home">
+        <div class="hero-image">
+        <img src=""C:\Users\HP\Downloads\WhatsApp Image 2026-05-04 at 10.29.44 PM.jpeg"" alt="Haider Ali">
+        </div>
         <h1>Hi 👋, I'm <span class="highlight">Haider Ali</span></h1>
         <p class="subtitle">React Native Developer | Full Stack Developer</p>
         <div class="typing-effect">Building Mobile Apps with Node.js Backend</div>
